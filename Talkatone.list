@@ -17,3 +17,9 @@ IP-CIDR,50.117.27.0/24,DIRECT
 IP-CIDR,69.46.75.0/24,DIRECT
 IP-CIDR,205.164.56.0/24,DIRECT
 IP-CIDR,63.251.124.0/24,DIRECT
+
+[Rule]
+# Talkatone 广告拦截规则
+DOMAIN-SUFFIX,ads.talkatone.com,REJECT
+DOMAIN-SUFFIX,analytics.talkatone.com,REJECT
+DOMAIN-SUFFIX,tracking.talkatone.com,REJECT
